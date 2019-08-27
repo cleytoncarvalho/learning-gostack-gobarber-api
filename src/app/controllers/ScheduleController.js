@@ -3,7 +3,6 @@ import { Op } from 'sequelize';
 
 import Appointment from '../models/Appointment';
 import User from '../models/User';
-import File from '../models/File';
 
 class Schedule {
   async index(req, res) {
@@ -32,14 +31,7 @@ class Schedule {
         {
           model: User,
           as: 'user',
-          attributes: ['id', 'name', 'email'],
-          include: [
-            {
-              model: File,
-              as: 'avatar',
-              attributes: ['id', 'path', 'url'],
-            },
-          ],
+          attributes: ['name'],
         },
       ],
     });
