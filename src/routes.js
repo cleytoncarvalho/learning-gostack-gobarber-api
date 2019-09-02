@@ -22,7 +22,7 @@ routes.post('/sessions', SessionController.store);
 
 routes.use(authMiddleware);
 
-routes.put('/users/:id', UserController.update);
+routes.put('/users', UserController.update);
 
 routes.get('/providers', ProviderController.index);
 routes.get('/providers/:providerId/available', AvailableController.index);
