@@ -1,6 +1,6 @@
 # GoBarber
 
-NodeJS project developed at the GoStack bootcamp. Aplication API for barber shop appointments.
+NodeJS project developed at the GoStack bootcamp. API of the aplication for barber shop appointments.
 
 Techs:
 
