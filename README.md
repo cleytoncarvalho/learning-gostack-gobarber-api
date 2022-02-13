@@ -1,8 +1,10 @@
-# GoBarber
+# Learning - NodeJS
 
-NodeJS project developed at the GoStack bootcamp. API of the aplication for barber shop appointments.
+:us: Project part of the bootcamp Gostack from Rocketseat. API of the aplication for barber shop appointments.
 
-Techs:
+:brazil: Projeto parte do bootcamp Gostack da Rocketseat. API para a aplicação de agendamentos para serviços de barbearia.
+
+:toolbox: Used in this project:
 
 - NodeJS
 - ExpressJS
